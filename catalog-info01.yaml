@@ -8,6 +8,8 @@ orgIdentifier: playground
 projectIdentifier: mak_playground
 spec:
   lifecycle: experimental
+  providesApis:
+  - api:account.playground.mak_playground/springbootdemoapi_v2
   sourceCode:
     provider: github
     repoName: my-java-app
