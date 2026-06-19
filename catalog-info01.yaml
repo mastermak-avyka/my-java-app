@@ -3,18 +3,18 @@ kind: Component
 type: service
 identifier: myjavaapp
 name: my-java-app
-owner: group:account/_account_all_users
+owner: _account_all_users
 orgIdentifier: playground
 projectIdentifier: mak_playground
 spec:
   lifecycle: dev
   sourceCode:
-    provider: Github
-    repoName: my-java-app
+    provider: github
+    repoName: mastermak-avyka/my-java-app
     connectorRef: MyGitHubConnector
     branch: test-branch
     monoRepo: false
-    url: https://github.com/mastermak-avyka/my-java-app/tree/test-branch
+    url: https://github.com/mastermak-avyka/mastermak-avyka/my-java-app/tree/test-branch
 metadata:
   tags:
   - idp
