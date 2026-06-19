@@ -1,0 +1,21 @@
+apiVersion: harness.io/v1
+kind: Component
+type: service
+identifier: myjavaapp
+name: my-java-app
+owner: group:account/_account_all_users
+orgIdentifier: playground
+projectIdentifier: mak_playground
+spec:
+  lifecycle: dev
+  sourceCode:
+    provider: Github
+    repoName: E-Commerce-IDP-app
+    connectorRef: MyGitHubConnector
+    branch: main
+    monoRepo: false
+    url: https://github.com/mastermak-avyka/E-Commerce-IDP-app/tree/main
+metadata:
+  tags:
+  - idp
+  - java
