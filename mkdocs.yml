@@ -1,0 +1,5 @@
+site_name: My Java App Documentation
+plugins:
+  - techdocs-core
+nav:
+  - Overview: index.md
