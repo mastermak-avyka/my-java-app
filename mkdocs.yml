@@ -2,7 +2,7 @@ site_name: my-java-app
 site_description: Documentation for my-java-app
 repo_url: https://github.com/mastermak-avyka/my-java-app
 nav:
-  - Home: docs/index.md
+  - Home: index.md
 theme:
   name: material
 plugins:
