@@ -18,7 +18,8 @@ spec:
 metadata:
   description: 'the test for test branch '
   annotations:
-    backstage.io/techdocs-ref: url:https://github.com/mastermak-avyka/my-java-app/tree/test-branch/docs
+    backstage.io/techdocs-ref: dir:.
+    backstage.io/source-location: url:url:https://github.com/mastermak-avyka/my-java-app/tree/test-branch/docs
   tags:
   - idp
   - java
