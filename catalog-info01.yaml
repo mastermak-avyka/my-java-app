@@ -21,7 +21,7 @@ metadata:
   description: Test catalog entry for my-java-app
   annotations:
     backstage.io/techdocs-ref: dir:.
-    backstage.io/source-location: url:https://github.com/mastermak-avyka/my-java-app/tree/test-branch
+    backstage.io/source-location: url:https://github.com/mastermak-avyka/my-java-app/
   tags:
   - java
   - harness-idp
