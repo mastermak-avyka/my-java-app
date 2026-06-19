@@ -18,7 +18,7 @@ spec:
 metadata:
   description: testing the repo change in which branch
   annotations:
-    backstage.io/techdocs-ref: url:https://github.com/mastermak-avyka/my-java-app/tree/test-branch
+    backstage.io/techdocs-ref: dir:. 
   tags:
   - idp
   - java
