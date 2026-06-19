@@ -1,14 +1,14 @@
 apiVersion: harness.io/v1
 kind: api
-identifier: springbootdemoapi
-name: Spring Boot Demo API
 type: openapi
-owner: demo-team
+identifier: springbootdemoapi_v2  # 👈 CHANGED THIS VALUE
+name: Spring Boot Demo API
+owner: user:account/your_harness_email@domain.com
 orgIdentifier: playground
 projectIdentifier: mak_playground
 spec:
   lifecycle: experimental
   definition:
-    $text: ./api-definition.yaml # This links the two files together
+    $text: ./api-definition.yaml
 metadata:
   description: OpenAPI 3.0 contract definition for item manipulation.
