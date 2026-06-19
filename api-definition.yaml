@@ -1,0 +1,40 @@
+openapi: 3.0.3
+info:
+  title: Spring Boot IDP Demo API
+  version: 1.0.0
+  description: Core CRUD endpoints for the item management service.
+paths:
+  /api/v1/items:
+    get:
+      summary: Retrieve items
+      responses:
+        '200':
+          description: Success
+    post:
+      summary: Create an item
+      responses:
+        '201':
+          description: Created
+  /api/v1/items/{id}:
+    put:
+      summary: Update an item
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Updated
+    delete:
+      summary: Delete an item
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Deleted

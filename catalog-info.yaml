@@ -1,0 +1,24 @@
+apiVersion: harness.io/v1
+kind: component
+identifier: springbootitemservice
+name: Spring Boot Item Service
+type: service
+owner: demo-team
+orgIdentifier: playground
+projectIdentifier: mak_playground
+spec:
+  lifecycle: experimental
+  consumedApis:
+    - spring-boot-demo-api
+metadata:
+  description: Standard microservice managing application inventory data.
+  tags:
+    - java
+    - spring-boot
+    - backend
+  links:
+    - url: https://github.com/your-github-username/spring-boot-idp-demo
+      title: Source Code
+      icon: github
+  annotations:
+    backstage.io/techdocs-ref: dir:.
