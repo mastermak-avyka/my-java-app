@@ -9,7 +9,8 @@ projectIdentifier: mak_playground
 spec:
   lifecycle: experimental
   consumedApis:
-    - spring-boot-demo-api
+    - springbootdemoapi_v2
+    - my-java-api
 metadata:
   description: Standard microservice managing application inventory data.
   tags:

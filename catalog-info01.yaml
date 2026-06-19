@@ -1,0 +1,25 @@
+apiVersion: harness.io/v1
+kind: Component
+type: service
+identifier: myjavaapp
+name: my-java-app
+owner: _account_all_users
+orgIdentifier: playground
+projectIdentifier: mak_playground
+spec:
+  lifecycle: dev
+  sourceCode:
+    provider: github
+    repoName: my-java-app
+    connectorRef: MyGitHubConnector
+    branch: main
+    monoRepo: false
+    url: https://github.com/mastermak-avyka/my-java-app/tree/main
+metadata:
+  description: testing the repo change in which branch
+  annotations:
+    backstage.io/techdocs-ref: url:https://github.com/mastermak-avyka/my-java-app/tree/test-branch
+  tags:
+  - idp
+  - java
+  - api
