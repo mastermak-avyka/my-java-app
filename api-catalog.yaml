@@ -1,14 +1,24 @@
 apiVersion: harness.io/v1
-kind: api
+kind: API
 type: openapi
-identifier: springbootdemoapi_v2  # 👈 CHANGED THIS VALUE
+identifier: springbootdemoapi_v2
 name: my-java-api
 owner: user:account/your_harness_email@domain.com
 orgIdentifier: playground
 projectIdentifier: mak_playground
 spec:
   lifecycle: experimental
+  sourceCode:
+    provider: Github
+    repoName: my-java-app
+    connectorRef: MyGitHubConnector
+    branch: main
+    monoRepo: false
+    url: https://github.com/mastermak-avyka/my-java-app/tree/main
   definition:
     $text: ./api-definition.yaml
 metadata:
   description: OpenAPI 3.0 contract definition for item manipulation.
+  tags:
+  - java
+  - fake-api
