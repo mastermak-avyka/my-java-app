@@ -12,14 +12,12 @@ spec:
     provider: github
     repoName: my-java-app
     connectorRef: MyGitHubConnector
-    branch: main
+    branch: test-branch
     monoRepo: false
-    url: https://github.com/mastermak-avyka/my-java-app/tree/main
+    url: https://github.com/mastermak-avyka/my-java-app/tree/test-branch
 metadata:
-  description: testing the repo change in which branch
-  annotations:
-    backstage.io/techdocs-ref: dir:.
   tags:
-  - idp
-  - java
-  - api
+    - idp
+    - java
+  annotations: 
+    backstage.io/techdocs-ref: dir:.
