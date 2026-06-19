@@ -1,8 +1,9 @@
 site_name: my-java-app
-docs_dir: docs
-
+site_description: Documentation for my-java-app
+repo_url: https://github.com/mastermak-avyka/my-java-app
 nav:
-  - Home: index.md
-
+  - Home: docs/index.md
+theme:
+  name: material
 plugins:
-  - techdocs-core
+  - search
