@@ -17,7 +17,7 @@ spec:
     url: https://github.com/mastermak-avyka/my-java-app/tree/main
 metadata:
   annotations:
-    backstage.io/techdocs-ref: dir:.
+    backstage.io/techdocs-ref: url:https://github.com/mastermak-avyka/my-java-app/tree/main
   tags:
   - idp
   - java
