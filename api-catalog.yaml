@@ -3,7 +3,7 @@ kind: API
 type: openapi
 identifier: springbootdemoapi_v2
 name: my-java-api
-owner: user:account/your_harness_email@domain.com
+owner: group:account/account_admins
 orgIdentifier: playground
 projectIdentifier: mak_playground
 spec:
