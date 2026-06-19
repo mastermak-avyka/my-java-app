@@ -10,11 +10,11 @@ spec:
   lifecycle: dev
   sourceCode:
     provider: Github
-    repoName: E-Commerce-IDP-app
+    repoName: my-java-app
     connectorRef: MyGitHubConnector
     branch: main
     monoRepo: false
-    url: https://github.com/mastermak-avyka/E-Commerce-IDP-app/tree/main
+    url: https://github.com/mastermak-avyka/my-java-app/tree/main
 metadata:
   tags:
   - idp
