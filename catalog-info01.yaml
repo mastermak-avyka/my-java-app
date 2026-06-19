@@ -19,3 +19,5 @@ metadata:
   tags:
   - idp
   - java
+annotations:
+    backstage.io/techdocs-ref: dir:.
