@@ -10,6 +10,7 @@ spec:
   lifecycle: experimental
   consumedApis:
     - springbootdemoapi_v2
+    - my-java-api
 metadata:
   description: Standard microservice managing application inventory data.
   tags:
